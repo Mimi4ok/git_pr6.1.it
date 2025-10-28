@@ -1,0 +1,3 @@
+﻿  gitpr6.1it.cpp
+D:\university\pr6.1it\gitpr6.1it\gitpr6.1it.cpp(31,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  gitpr6.1it.vcxproj -> D:\university\pr6.1it\gitpr6.1it\x64\Debug\gitpr6.1it.exe
