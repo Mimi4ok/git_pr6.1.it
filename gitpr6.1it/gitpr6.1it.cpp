@@ -3,43 +3,63 @@
 
 #include <iostream>
 #include <iomanip>
-#include <ctime>
 #include <cstdlib>
+#include <ctime>
 using namespace std;
 
-const int SIZE = 20;
+bool checkCriterion(int value, int index) {
+    return (value > 0 && index % 5 != 0);
+}
 
-void processArray(int a[], int n) {
-    int count = 0, sum = 0;
+void generateArray(int a[], int size, int minVal, int maxVal) {
+    for (int i = 0; i < size; i++)
+        a[i] = minVal + rand() % (maxVal - minVal + 1);
+}
 
-    for (int i = 0; i < n; i++) {
-        if (a[i] > 0 && a[i] % 5 != 0) {
-            count++;
-            sum += a[i];
-            a[i] = 0;
-        }
-    }
-
-    cout << "\nCount = " << count << ", Sum = " << sum << endl;
-    cout << "Modified array:\n";
-    for (int i = 0; i < n; i++)
+void printArray(const int a[], int size) {
+    for (int i = 0; i < size; i++)
         cout << setw(4) << a[i];
     cout << endl;
 }
 
-int main() {
-    srand(time(NULL));
+void countAndSum(const int a[], int size, int& count, int& sum) {
+    count = 0;
+    sum = 0;
 
+    for (int i = 0; i < size; i++) {
+        if (checkCriterion(a[i], i)) {
+            count++;
+            sum += a[i];
+        }
+    }
+}
+
+void replaceWithZero(int a[], int size) {
+    for (int i = 0; i < size; i++) {
+        if (checkCriterion(a[i], i))
+            a[i] = 0;
+    }
+}
+
+int main() {
+    srand(time(0));
+
+    const int SIZE = 20;
     int a[SIZE];
-    for (int i = 0; i < SIZE; i++)
-        a[i] = -20 + rand() % 71;
+    int count = 0, sum = 0;
+
+    generateArray(a, SIZE, -20, 50);
 
     cout << "Initial array:\n";
-    for (int i = 0; i < SIZE; i++)
-        cout << setw(4) << a[i];
-    cout << endl;
+    printArray(a, SIZE);
 
-    processArray(a, SIZE);
+    countAndSum(a, SIZE, count, sum);
+    cout << "\nCount = " << count << ", Sum = " << sum << endl;
+
+    replaceWithZero(a, SIZE);
+
+    cout << "Modified array:\n";
+    printArray(a, SIZE);
 
     return 0;
 }

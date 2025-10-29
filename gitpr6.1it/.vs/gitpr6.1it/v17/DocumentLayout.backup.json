@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\university\\pr6.1it\\gitpr6.1it\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DFCC091-3285-402A-B3EA-47E8A9C92339}|gitpr6.1it.vcxproj|D:\\university\\pr6.1it\\gitpr6.1it\\gitpr6.1it.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6DFCC091-3285-402A-B3EA-47E8A9C92339}|gitpr6.1it.vcxproj|solutionrelative:gitpr6.1it.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EA932872-50E2-40AF-82AB-94B59CAB9ADB}|..\\UnitTest2\\UnitTest2.vcxproj|D:\\university\\pr6.1it\\UnitTest2\\UnitTest2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA932872-50E2-40AF-82AB-94B59CAB9ADB}|..\\UnitTest2\\UnitTest2.vcxproj|D:\\university\\pr6.1it\\UnitTest2\\UnitTest2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6DFCC091-3285-402A-B3EA-47E8A9C92339}|gitpr6.1it.vcxproj|D:\\university\\pr6.1it\\gitpr6.1it\\gitpr6.1it.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6DFCC091-3285-402A-B3EA-47E8A9C92339}|gitpr6.1it.vcxproj|solutionrelative:gitpr6.1it.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,30 +17,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UnitTest2.cpp",
               "DocumentMoniker": "D:\\university\\pr6.1it\\UnitTest2\\UnitTest2.cpp",
               "RelativeDocumentMoniker": "..\\UnitTest2\\UnitTest2.cpp",
               "ToolTip": "D:\\university\\pr6.1it\\UnitTest2\\UnitTest2.cpp",
               "RelativeToolTip": "..\\UnitTest2\\UnitTest2.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-28T22:18:25.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "gitpr6.1it.cpp",
               "DocumentMoniker": "D:\\university\\pr6.1it\\gitpr6.1it\\gitpr6.1it.cpp",
               "RelativeDocumentMoniker": "gitpr6.1it.cpp",
-              "ToolTip": "D:\\university\\pr6.1it\\gitpr6.1it\\gitpr6.1it.cpp*",
-              "RelativeToolTip": "gitpr6.1it.cpp*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "ToolTip": "D:\\university\\pr6.1it\\gitpr6.1it\\gitpr6.1it.cpp",
+              "RelativeToolTip": "gitpr6.1it.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-28T21:05:51.321Z",
               "EditorCaption": ""
